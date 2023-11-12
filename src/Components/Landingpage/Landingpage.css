@@ -11,9 +11,10 @@
 
 .card{
     width: 30rem !important;
-    height: 10rem !important;
+    max-height: 10rem !important;
 }
 
 .ancorh{
     background-color: #17476E;
+    color: white;
 }

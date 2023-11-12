@@ -16,15 +16,15 @@ import Landingpage from './Components/Landingpage/Landingpage';
 function App() {
   return (
     <div>
-      <Form/>
+      {/* <Form/> */}
+      {/* <Addorder /> */}
       {/* <Ownerlogin /> */}
       {/* <Approve /> */}
       {/* <Link/> */}
       {/* <Riders /> */}
-      {/* <Addorder /> */}
       {/* <Admin3 /> */}
       {/* <Establishment /> */}
-      {/* <Landingpage/> */}
+      <Landingpage/>
     </div>
     
   );
