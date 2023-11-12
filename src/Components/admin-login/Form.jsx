@@ -16,13 +16,13 @@ const form = () => {
                   <label htmlFor="email">Email address</label>
                   <input
                     type="email"
-                    className="rounded-pill w-100 border-1 py-2 px-3"
+                    className="rounded-pill w-100 form-control border-1 py-2 px-3"
                   />
                 </div>
                 <div className="form-group mb-3">
                   <label htmlFor="password">Password</label>
                   <input
-                    className="rounded-pill w-100 border-1 py-2"
+                    className="rounded-pill w-100 form-control border-1 py-2"
                     type="password"
                   />
                 </div>

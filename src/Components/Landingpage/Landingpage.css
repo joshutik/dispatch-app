@@ -1,7 +1,7 @@
-:root{
-    --primary-color:#;
-    }
-}
+/* :root{
+    --primary-color:;
+    
+} */
 
 .landing-page{
     background-image: url(../Assets/Overlay.png);
@@ -15,5 +15,5 @@
 }
 
 .ancorh{
-    outline: ;
+    background-color: #17476E;
 }
