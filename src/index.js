@@ -8,6 +8,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Addorder from './Components/Addorders/Addorder';
+import Lottery from './Components/Lotery/Lottery';
+import Administrator from './Components/Administrator/Administrator';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,15 @@ const router = createBrowserRouter([
     path: "/add-order",
     element: <Addorder />,
   },
+  {
+    path: "/land-page",
+    element: <Lottery />,
+  },
+  {
+    path: "/Admin",
+    element: <Administrator />,
+  },
+ 
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

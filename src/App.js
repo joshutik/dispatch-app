@@ -10,6 +10,8 @@ import Establishment from './Components/Establiment/Establishment';
 import Admin5 from './Components/Admin5/Admin5';
 import Admin3 from './Components/Admin3/Admin3';
 import Landingpage from './Components/Landingpage/Landingpage';
+import Lottery from './Components/Lotery/Lottery';
+import Administrator from './Components/Administrator/Administrator';
 
 
 
@@ -25,6 +27,8 @@ function App() {
       {/* <Admin3 /> */}
       {/* <Establishment /> */}
       <Landingpage/>
+      {/* <Lottery /> */}
+      {/* <Administrator /> */}
     </div>
     
   );

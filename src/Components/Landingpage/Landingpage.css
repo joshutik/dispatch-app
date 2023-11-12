@@ -2,7 +2,13 @@
     --primary-color:;
     
 } */
-
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+    text-decoration: none !important;
+}
 .landing-page{
     background-image: url(../Assets/Overlay.png);
     background-size: cover;
@@ -10,11 +16,37 @@
 }
 
 .card{
-    width: 30rem !important;
-    max-height: 10rem !important;
+    width: 29rem !important;
+    height: 25rem !important;
+    margin: auto;
+    background-color: white;
+    padding-top: 7rem;
+
 }
 
-.ancorh{
+.row{
+    padding-top: 4rem;
+    
+}
+
+.Link{
     background-color: #17476E;
     color: white;
+    width: 10rem;
+    padding: 18px 18px;
+    width: 70% !important;
+    border-radius: 35px;
+    display: inline-block;
+}
+
+@media screen and (max-width:768px) {
+    .card{
+        width: 20rem !important;
+        height: 25rem !important;
+        margin: auto;
+        background-color: white;
+        padding-top: 7rem;
+    
+    }
+    
 }

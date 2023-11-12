@@ -3,8 +3,13 @@
     --secondary-color: red;
 }
 
+
 .container{
     margin: 0px !important;
+}
+
+.bi,h2{
+    color: var(--primary-color);
 }
 
 input, select{
@@ -12,10 +17,9 @@ input, select{
 }
 
 body{
-    font-family: poppins;
-    background-color: white;
+    font-family: poppins !important;
+    /* background-color: white; */
 }
-
 .bg{
     background-image:url(../Assets/Rectangle\ 7.png) ;
     background-size: cover;
@@ -23,4 +27,8 @@ body{
     height: 40vh !important;
     width: 100%;
     margin:0px;
+}
+
+.table{
+    width: 100% !important;
 }

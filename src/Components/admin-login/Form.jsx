@@ -47,7 +47,7 @@ const form = () => {
 
                 <div className="text-center mt-5">
                   <p>
-                    Not an admin? <a href="/src/Components/Owner-login/ownerLogin.jsx">Login as owner</a>
+                    Not an admin? <a href="/">Login as owner</a>
                   </p>
                 </div>
               </div>
