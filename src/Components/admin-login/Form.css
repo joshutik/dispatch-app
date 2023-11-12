@@ -1,0 +1,40 @@
+:root{
+    --primary-color:#17476E;
+}
+
+.parent{
+    background-image: url(../Assets/Overlay.png);
+    background-size: cover;
+    min-height:100vh;
+    background-attachment: fixed;
+    font-family: poppins;
+    
+}
+
+.card{
+    /* width: 30rem;
+    margin: auto; */
+}
+
+.btn{
+    background-color: var(--primary-color) !important;
+}
+
+h2, a, .footer{
+ font-weight: 700;
+ color: var(--primary-color);
+}
+
+.footer{
+    margin-top: 5rem !important;
+}
+
+.bi{
+    margin-right: 0.3rem;
+    align-items: center;
+}
+
+p, label{
+    font-weight: normal !important;
+}
+

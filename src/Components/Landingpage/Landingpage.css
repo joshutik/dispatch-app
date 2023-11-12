@@ -1,0 +1,19 @@
+:root{
+    --primary-color:#;
+    }
+}
+
+.landing-page{
+    background-image: url(../Assets/Overlay.png);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.card{
+    width: 30rem !important;
+    height: 10rem !important;
+}
+
+.ancorh{
+    outline: ;
+}
